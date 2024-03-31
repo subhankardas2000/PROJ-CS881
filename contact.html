@@ -5,16 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.70.0" />
     <meta name="description" content="Contact page for GraphMaster web application." />
-    <title>Contact - GraphMaster</title>
+    <title>Contact-GraphMaster</title>
     <link rel="stylesheet" href="css/default.css">
     <style>
-        form {
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        header {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
             max-width: 600px;
-            margin: 0 auto;
+            width: 90%;
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
             background-color: #f9f9f9;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
         }
 
         label {
@@ -53,6 +81,12 @@
         button[type="submit"]:hover {
             background-color: #0056b3;
         }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -67,8 +101,7 @@
 
 <main>
     <section>
-        <h2>Contact Us</h2>
-        <p>If you have any questions or feedback about GraphMaster, feel free to get in touch with us using the form below:</p>
+        <h2>Drop Your Valuable Feedback About GraphMaster</h2>
         <form action="submit_contact.php" method="post">
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required>
@@ -86,7 +119,7 @@
 
 <footer>
     <div>
-         <p>&copy; 2024 | Subhankar Das | Brainware University | Kol-124</p>
+        <p>&copy; 2024 | Subhankar Das | Brainware University | Kol-124</p>
     </div>
 </footer>
 
