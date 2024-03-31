@@ -8,41 +8,13 @@
     <title>Contact-GraphMaster</title>
     <link rel="stylesheet" href="css/default.css">
     <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-        }
-
-        header {
-            background-color: #f8f9fa;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        main {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        section {
+        form {
             max-width: 600px;
-            width: 90%;
+            margin: 0 auto;
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
             background-color: #f9f9f9;
-        }
-
-        h2 {
-            text-align: center;
-        }
-
-        form {
-            margin-top: 20px;
         }
 
         label {
@@ -81,27 +53,21 @@
         button[type="submit"]:hover {
             background-color: #0056b3;
         }
-
-        footer {
-            background-color: #f8f9fa;
-            padding: 20px 0;
-            text-align: center;
-        }
     </style>
 </head>
 <body>
 
 <header>
     <div>
-        <h1><a href="/">GraphMaster</a></h1>
+        <h1><a href="/">Contact US</a></h1>
         <p><a href="graph.html">Virtual Graph Paper</a></p>
-        <p><a href="index.html">GraphMaster HomePage</a></p>
+        <p><a href="index.html">HomePage</a></p>
     </div>
 </header>
 
 <main>
     <section>
-        <h2>Drop Your Valuable Feedback About GraphMaster</h2>
+        <p>If you have any questions or feedback about GraphMaster, feel free to get in touch with us using the form below:</p>
         <form action="submit_contact.php" method="post">
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required>
@@ -110,7 +76,7 @@
             <input type="email" id="email" name="email" required>
             
             <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <textarea id="message" name="message" rows="3" required></textarea>
             
             <button type="submit">Submit</button>
         </form>
@@ -122,6 +88,5 @@
         <p>&copy; 2024 | Subhankar Das | Brainware University | Kol-124</p>
     </div>
 </footer>
-
 </body>
 </html>
