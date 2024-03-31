@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.70.0" />
+    <meta name="description" content="Contact page for Virtual Graph web application." />
+    <title>Contact - Virtual Graph</title>
+    <link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+
+<header>
+    <div>
+        <h1><a href="/">Virtual Graph</a></h1>
+        <p><a href="graph.html">Virtual Graph Paper</a></p>
+    </div>
+</header>
+
+<main>
+    <section>
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback about Virtual Graph, feel free to get in touch with us using the form below:</p>
+        <form action="submit_contact.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <div>
+        <p>&copy; 2024 Subhankar Das</p>
+    </div>
+</footer>
+
+</body>
+</html>
