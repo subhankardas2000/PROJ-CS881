@@ -83,7 +83,7 @@ main aside {
 footer {
   color: #aaa;
   background: #eee;
-  padding: 16px 24px;
+  padding: 16px 2px;
 }
 footer div {
   max-width: 960px;
@@ -92,7 +92,7 @@ footer div {
   justify-content: space-around;
 }
 footer section {
-  flex-basis: 15%;
+  flex-basis: 25%;
 }
 footer a {
   color: #444;
