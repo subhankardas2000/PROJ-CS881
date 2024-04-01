@@ -1,5 +1,5 @@
-![image](https://github.com/miracurall/miracurall.github.io/assets/149778741/8885b87e-b5b9-4e1b-ad30-c49a6ecbc335)# GraphMaster
-Simple online graph paper with basic drafting tools. [View it live](https://miracurall.github.io/)
+# GraphMaster
+Simple online virtual graph paper with basic drafting tools. [View it live](https://miracurall.github.io/)
 
 ![screenshot](png/hero.png)
 ![screenshot](png/Screenshot.png)
@@ -7,7 +7,7 @@ Simple online graph paper with basic drafting tools. [View it live](https://mira
 # Overview
 Description of the interface
 
-![screenshot](png/TScreenshot.png)
+![screenshot](png/interface.png)
 
 
 1. Line tool : 
