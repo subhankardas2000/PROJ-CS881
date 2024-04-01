@@ -10,7 +10,7 @@ Description of the interface
 ![screenshot](png/interface.png)
 
 
-1. Line tool : 
+1. Line tool
 2. Arc tool
 3. Color to use for line, arc, and text tools
 4. Line thickness to use for line and arc tools
