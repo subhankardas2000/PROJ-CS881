@@ -7,7 +7,7 @@ Simple online graph paper with basic drafting tools. [View it live](https://mira
 # Overview
 Description of the interface
 
-![screenshot](png/inteface.png)
+![screenshot](png/TScreenshot.png)
 
 
 1. Line tool : 
